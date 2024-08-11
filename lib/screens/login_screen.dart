@@ -71,6 +71,11 @@ class _LoginScreenState extends State<LoginScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              SizedBox(height: 48),
+              Image.asset(
+                'assets/dealsdray_logo.png',
+                height: 100,
+              ),
               TextFormField(
                 controller: _mobileController,
                 keyboardType: TextInputType.phone,
