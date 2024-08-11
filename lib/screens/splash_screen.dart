@@ -25,9 +25,11 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            FlutterLogo(size: 100),
-            SizedBox(height: 20),
-            Text('Your App Name', style: TextStyle(fontSize: 24)),
+           Image.asset(
+              'assets/dealsdray_logo.png',
+              width: 200,
+              height: 200,
+            ),
           ],
         ),
       ),
